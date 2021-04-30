@@ -1,0 +1,258 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home {
+    width: 960px;
+    margin: auto;
+
+    background: rgb(255, 255, 255);
+
+
+}
+
+.home .nav {
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    position: absolute;
+    top: 37PX;
+    right: 280px;
+
+}
+
+.home .nav ul {
+    list-style-type: none;
+}
+
+.home .nav ul li {
+
+    float: right;
+    margin-left: 20px;
+
+}
+
+
+.home .nav ul li a {
+    font-family: 'Orelega One', cursive;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(182, 176, 150);
+
+
+}
+
+.home .nav ul li .amm {
+    color: rgb(0, 88, 74);
+}
+
+
+h1 {
+    font-size: 45px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(2, 59, 85);
+
+
+}
+
+.ahmm img {
+    position: absolute;
+    left: 200px;
+    top: 85px;
+}
+
+/*---------------------------------------------------------slide-----------------------------------*/
+.ann {
+    background: rgba(185, 6, 6, 0.842);
+    position: absolute;
+    top: 330px;
+    left: 340px;
+    width: 380px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 10%;
+    transition: all 1s;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+}
+
+h3::before {
+    content: "";
+    width: 14%;
+    height: 40px;
+    background-color: rgb(58, 126, 158);
+    position: absolute;
+    left: 0;
+    top: 85px;
+}
+
+h3::after {
+    content: "";
+    width: 12%;
+    height: 40px;
+    background-color: rgb(58, 126, 158);
+    position: absolute;
+    right: 0;
+    top: 85px;
+}
+
+.photo {
+
+    position: absolute;
+    top: 520px;
+    left: 200px;
+}
+
+.photo ul {
+    list-style-type: none;
+}
+
+.photo ul li {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.offer {
+    position: absolute;
+    top: 675px;
+    left: 180px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.offer .offer2 h2 {
+    color: #464402;
+    font-size: 1.2em;
+    width: 220px;
+    float: right;
+    margin-left: 40px;
+    line-height: 1.25em;
+
+}
+
+.offer .offer2 p {
+    width: 280px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.offer .offer2 button {
+    width: 60px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #eeea97;
+    font-family: serif;
+}
+
+.recent {
+    text-align: left;
+    position: relative;
+    top: 950px;
+    left: 245px;
+    font-size: 22px;
+    color: rgb(158, 62, 47);
+}
+
+.recent::before {
+    content: "";
+    width: 57%;
+    height: 25px;
+    background-color: rgb(230, 57, 57);
+    position: absolute;
+    left: 130px;
+
+}
+
+.seric {
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    width: 250 px;
+    height: 250px;
+    margin-top: 20px;
+    border-top: 0px;
+    text-align: center;
+    display: flex;
+
+}
+
+.seric .seric1 {
+
+    margin-left: 13px;
+    border-bottom: solid 1px rgb(224, 221, 221);
+    border-left: solid 1px rgb(224, 221, 221);
+    border-right: solid 1px rgb(224, 221, 221);
+
+}
+
+.seric .seric1 img {
+    width: 220px;
+    height: 183px;
+}
+
+.seric .seric1 h2 {
+    margin-top: 10px;
+    color: rgb(62, 139, 175);
+}
+
+.seric .seric1 p {
+    margin-top: 5px;
+    color: rgb(128, 182, 207);
+}
+
+.footer {
+    position: absolute;
+    top: 1300px;
+    left: 175px;
+display: flex;
+    width: 980px;
+    height: 280px;
+    background: #17a8a8;
+
+}
+.footer .footer1 h2{
+    
+    margin-top: 30px;
+    margin-left: 10px;
+    
+
+}
+.footer .footer1 p{
+width: 280px;
+margin-top: 20px;
+margin-left: 10px;
+padding: 5px;
+}
+
+/* .footerlr {
+    text-align: center;
+    position: relative;
+    top: 1190px;
+}
+
+.footerlr::before {
+    content: "";
+    width: 12.5%;
+    height: 280px;
+    background-color: rgba(15, 10, 10, 0.829);
+    position: absolute;
+    left: 0;
+    top: 85px;
+}
+
+.footerlr::after {
+    content: "";
+    width: 14%;
+    height: 280px;
+    background-color: rgba(17, 14, 14, 0.877);
+    position: absolute;
+    right:0;
+    top: 85px;
+} */
